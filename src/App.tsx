@@ -27,7 +27,7 @@ export class App extends React.Component<Props, State> {
     event.preventDefault();
 
     if (!this.state.isClockVisible) {
-      this.setState({ ...this.state, isClockVisible: true });
+      this.setState({ isClockVisible: true });
     }
   };
 
@@ -35,7 +35,7 @@ export class App extends React.Component<Props, State> {
     event.preventDefault();
 
     if (this.state.isClockVisible) {
-      this.setState({ ...this.state, isClockVisible: false });
+      this.setState({ isClockVisible: false });
     }
   };
 
